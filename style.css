@@ -1,0 +1,411 @@
+/* styles/style.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1a73e8;
+    padding: 15px 20px;
+    color: white;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background: linear-gradient(135deg, #f5af19, #f12711);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-section h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero-section button {
+    padding: 12px 25px;
+    background-color: white;
+    color: #f12711;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-section button:hover {
+    background-color: #ddd;
+}
+
+/* Product Listing Section */
+.product-listing {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.product-listing .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-listing h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Product Card Styling */
+.product-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.product-card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+    background-color: #145bbd;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #145bbd;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #282828;
+    color: #f4f4f4;
+    padding: 30px 0;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer .footer-section h3,
+.footer .footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer .footer-section p,
+.footer .footer-section a {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.footer .footer-section a:hover {
+    color: #1e90ff;
+}
+
+.footer .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer .footer-bottom p {
+    font-size: 13px;
+    color: #bbb;
+}
+
+
+
+/* styles/style.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40;
+    padding: 15px 20px;
+    color: white;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Orders Section Styling */
+.orders {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orders .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.orders h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #343a40;
+    text-align: center;
+}
+
+/* Centered Grid Layout */
+#orderList {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    width: 100%;
+    max-width: 1000px;
+    /* Centered width */
+    justify-content: center;
+}
+
+/* Order Card Styling */
+.order-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.order-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.order-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.order-card p {
+    font-size: 15px;
+    color: #555;
+    margin: 8px 0;
+}
+
+.order-card .status {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #28a745;
+    /* Green for "Delivered", can be changed per status */
+}
+
+.order-card .status.pending {
+    color: #ffc107;
+    /* Yellow for "Pending" */
+}
+
+.order-card .status.cancelled {
+    color: #dc3545;
+    /* Red for "Cancelled" */
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+/* Buttons (Optional Styling for buttons inside order cards) */
+button {
+    padding: 10px 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">E-Shop</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="container">
+            <h2>Welcome to E-Shop</h2>
+            <p>Find the best products at unbeatable prices!</p>
+            <button onclick="window.location='#products'">Shop Now</button>
+        </div>
+    </header>
+
+    <button onclick="window.location.href='product.html?id=${product.id}'">View Details</button>
+
+
+    <!-- Product Listing Section -->
+    <section class="product-listing" id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <!-- Product Cards (dynamic content will go here) -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section brand">
+                    <h3 class="footer-logo">E-Shop</h3>
+                    <p>Your go-to place for the best deals on quality products. We prioritize customer satisfaction and
+                        exceptional service.</p>
+                </div>
+                <div class="footer-section links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: support@eshop.com</p>
+                    <p>Phone: +123 456 7890</p>
+                    <p>Address: 123 E-Shop Street, Web City, Online</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 E-Shop. All Rights Reserved. | Designed by E-Shop Team</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
